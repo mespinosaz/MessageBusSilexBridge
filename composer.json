@@ -1,0 +1,22 @@
+{
+    "name": "mespinosaz/message-bus-silex-bridge",
+    "autoload": {
+        "psr-4": {"mespinosaz\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.4",
+        "silex/silex": "v1.2.3",
+        "simple-bus/message-bus": "v1.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Marc Espinosa",
+            "email": "marc@drizzt.ws"
+        }
+    ],
+    "minimum-stability": "stable"
+}
